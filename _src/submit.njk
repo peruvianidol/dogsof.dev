@@ -20,23 +20,23 @@ layout: base
 <form name="Submit a Dog" action="/success" netlify>
   <div>
     <label for="name">Dog's Name</label>
-    <input type="text" maxlength="32" name="name">
+    <input type="text" maxlength="32" name="name" required>
   </div>
 
   <div>
     <label for="url">Dog's Photo</label>
-    <input type="text" maxlength="128" name="url" placeholder="Twitter/Instagram URL">
+    <input type="text" maxlength="128" name="url" placeholder="Twitter/Instagram URL" required>
   </div>
 
   <div>
-    <label for="url">Dog's Bio (optional, 280 characters)</label>
-    <textarea maxlength="280" name="url" placeholder="Tell us about your dog!"></textarea>
+    <label for="bio">Dog's Bio (optional, 280 characters)</label>
+    <textarea maxlength="280" name="bio" placeholder="Tell us about your dog!"></textarea>
     <p><strong>Some ideas:</strong> nicknames, age, likes, where you adopted them from</p>
   </div>
 
   <div>
     <label for="ownerName">Owner's Name</label>
-    <input type="text" maxlength="64" name="ownerName" placeholder="First/Last Name, unless you're a rockstar like Jina">
+    <input type="text" maxlength="64" name="ownerName" placeholder="First/Last Name, unless you're a rockstar like Jina" required>
   </div>
 
   <div>
