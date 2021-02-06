@@ -4,3 +4,5 @@ layout: base
 ---
 
 # {{ title }}
+
+A celebration of pups!
