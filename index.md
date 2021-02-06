@@ -1,1 +1,0 @@
-# Dogs of Dev
