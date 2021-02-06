@@ -1,0 +1,16 @@
+{
+  "name": "dogsof.dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "Mike Aparicio <peruvianidol@gmail.com> (http://mikeaparicio.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  }
+}
