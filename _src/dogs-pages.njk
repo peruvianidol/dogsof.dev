@@ -1,0 +1,32 @@
+---
+pagination:
+  data: dogs
+  size: 1
+  alias: dog
+  addAllPagesToCollections: true
+permalink: "dogs/{{dog.name | slug }}/"
+layout: base
+tags: dogs
+eleventyComputed:
+  title: "{{ dog.name }}"
+  image: "/images/{{ dog.name | slug }}.jpg"
+  owner: "{{ dog.owner }}"
+  ownerUrl: "{{ dog.ownerUrl }}"
+---
+
+<h2>{{ dog.name }}</h2>
+
+<img src="/images/{{dog.name | slug }}.jpg" alt="{{ dog.name }}">
+
+{% if dog.bio %}
+<p>{{ dog.bio }}</p>
+{% endif %}
+
+<h3>Owner</h3>
+
+<p><a href="{{ dog.ownerUrl }}">{{ dog.owner }}</a></p>
+
+{% if dog.ownerTitle %}
+<p>{{ dog.ownerTitle }}</p>
+{% endif %}
+

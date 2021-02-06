@@ -1,119 +1,119 @@
 [
   {
     "url": "https://www.instagram.com/p/Bm6wTGeBGHE/",
-    "dog": "Emily",
+    "name": "Emily",
     "owner": "Mike Aparicio",
     "ownerUrl": "https://mikeaparicio.com/",
     "ownerTitle": "Senior Design Systems Engineer @ Provi",
-    "about": "aka Moo-Moo, aka Moo-Moo Magoo. 5 years old. Loves fluffy pillows and snuggles. Adopted from Hudson's Halfway Home, which rescues dogs with special needs. (She has a cleft palate.)"
+    "bio": "aka Moo-Moo, aka Moo-Moo Magoo. 5 years old. Loves fluffy pillows and snuggles. Adopted from Hudson's Halfway Home, which rescues dogs with special needs. (She has a cleft palate.)"
   },
   {
     "url": "https://www.instagram.com/p/Bk-tMTkhup-/",
-    "dog": "Geno",
+    "name": "Geno",
     "owner": "Mike Aparicio",
     "ownerUrl": "https://mikeaparicio.com/",
     "ownerTitle": "Senior Design Systems Engineer @ Provi",
-    "about": "aka Gee-Gee, aka Gee-Gee McGee. 4 years old. Loves eating out of the garbage, turning fetch into tug of war, napping by the vent. Adopted from Hudson's Halfway Home. which rescues dogs with special needs. (He has a cleft palate.)"
+    "bio": "aka Gee-Gee, aka Gee-Gee McGee. 4 years old. Loves eating out of the garbage, turning fetch into tug of war, napping by the vent. Adopted from Hudson's Halfway Home. which rescues dogs with special needs. (He has a cleft palate.)"
   },
   {
     "url": "https://www.instagram.com/p/CI5osWhnzKX/",
-    "dog": "Emmy",
+    "name": "Emmy",
     "owner": "Ally Palanzi",
     "ownerUrl": "https://allypalanzi.com/"
   },
   {
     "url": "https://twitter.com/SamKap/status/1350303234074808320/photo/1",
-    "dog": "Gemma",
+    "name": "Gemma",
     "owner": "Sameera Kapila",
     "ownerUrl": "https://samkapila.com/"
   },
   {
     "url": "https://www.instagram.com/p/CJOwtSWBOwV0KZ9GLL6vDqfgjdhu_pFxuKPC040/",
-    "dog": "Chloe",
+    "name": "Chloe",
     "owner": "Zach Leatherman",
     "ownerUrl": "https://zachleat.com/"
   },
   {
     "url": "https://www.instagram.com/p/CKxPoVQhy4O/",
-    "dog": "Ziggy",
+    "name": "Ziggy",
     "owner": "Brad Frost",
     "ownerUrl": "https://bradfrost.com/"
   },
   {
     "url": "https://www.instagram.com/p/CHd40KDBxD8/",
-    "dog": "Layla Rose",
+    "name": "Layla Rose",
     "owner": "Matt Hanson",
     "ownerUrl": "https://www.instagram.com/laylarosethemaltipoo/"
   },
   {
     "url": "https://www.instagram.com/p/CIzHUdEhc5q/",
-    "dog": "Disco",
+    "name": "Disco",
     "owner": "Una Kravetz",
     "ownerUrl": "https://www.instagram.com/laylarosethemaltipoo/"
   },
   {
     "url": "https://www.instagram.com/p/B_LJ30onvrm/",
-    "dog": "Boomer",
+    "name": "Boomer",
     "owner": "Lynn Fisher",
     "ownerUrl": "https://www.lynnandtonic.com/"
   },
   {
     "url": "https://www.instagram.com/p/CJNU-n5D4XD/",
-    "dog": "Jello",
+    "name": "Jello",
     "owner": "Mandy Michael",
     "ownerUrl": "https://www.instagram.com/adognamedjello/"
   },
   {
     "url": "https://twitter.com/janie/status/1348830219084378114/photo/1",
-    "dog": "Bayou",
+    "name": "Bayou",
     "owner": "Janie",
     "ownerUrl": "https://twitter.com/janie/"
   },
   {
     "url": "https://twitter.com/pcorliss/status/1357913343043002369/photo/1",
-    "dog": "Sam",
+    "name": "Sam",
     "owner": "Phil Corliss",
     "ownerUrl": "https://www.instagram.com/sameatskibble/"
   },
   {
     "url": "https://twitter.com/rboyd/status/1357907433977491456/photo/1",
-    "dog": "Buttercup",
+    "name": "Buttercup",
     "owner": "Robert Boyd",
     "ownerUrl": "https://twitter.com/rboyd"
   },
   {
     "url": "https://twitter.com/raykrueger/status/1357918960742764544/photo/1",
-    "dog": "Ember",
+    "name": "Ember",
     "owner": "Ray Kreuger",
     "ownerUrl": "https://twitter.com/raykrueger/"
   },
   {
     "url": "https://twitter.com/raykrueger/status/1357918960742764544/photo/2",
-    "dog": "Daisy",
+    "name": "Daisy",
     "owner": "Ray Kreuger",
     "ownerUrl": "https://twitter.com/raykrueger/"
   },
   {
     "url": "https://www.instagram.com/p/CAwfXiDgh5Z/",
-    "dog": "Rainier McCheddarton",
+    "name": "Rainier McCheddarton",
     "owner": "Marcy Sutton",
     "ownerUrl": "https://twitter.com/marcysutton"
   },
   {
     "url": "https://twitter.com/erikbenoist/status/1358088047406047233/photo/1",
-    "dog": "Edith",
+    "name": "Edith",
     "owner": "Erik Benoist",
     "ownerUrl": "https://twitter.com/erikbenoist"
   },
   {
     "url": "https://twitter.com/BertFanslow/status/1358035914010804226/photo/1",
-    "dog": "Osirus",
+    "name": "Osirus",
     "owner": "Bert Fanslow",
     "ownerUrl": "https://bertfanslow.com/"
   },
   {
     "url": "https://twitter.com/BertFanslow/status/1358035914010804226/photo/2",
-    "dog": "Maggie",
+    "name": "Maggie",
     "owner": "Bert Fanslow",
     "ownerUrl": "https://bertfanslow.com/"
   }

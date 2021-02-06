@@ -1,0 +1,54 @@
+---
+title: Submit a Dog
+layout: base
+---
+
+<h2>Submit a Dog</h2>
+
+<p>Do you make websites? Do you have a dog? Want to see your dog here? Fill out the form here and we'll add them!</p>
+
+<h3>Guidelines</h3>
+
+<ul>
+  <li>You <strong>must</strong> make websites. Designers, developers and product folks are all welcome. (Let's be honest though, I'm probably not gonna reject a picture of a cute dog, regardless.)
+  <li>Dogs only, please. This is not catsof.dev or peopleof.dev, thank you.</li>
+  <li>Link to a photo of your dog, preferably on Twitter or Instagram.</li>
+  <li>Refrain from adding artsy filters or stickers/overlays. Let your dog be the star.</li>
+  <li>Please submit multiple dogs separately.</li>
+</ul>
+
+<form name="Submit a Dog" netlify>
+  <div>
+    <label for="name">Dog's Name</label>
+    <input type="text" maxlength="32" name="name">
+  </div>
+
+  <div>
+    <label for="url">Dog's Photo</label>
+    <input type="text" maxlength="128" name="url" placeholder="Twitter/Instagram URL">
+  </div>
+
+  <div>
+    <label for="url">Dog's Bio (optional, 280 characters)</label>
+    <textarea maxlength="280" name="url" placeholder="Tell us about your dog!"></textarea>
+    <p><strong>Some ideas:</strong> nicknames, age, likes, where you adopted them from</p>
+  </div>
+
+  <div>
+    <label for="ownerName">Owner's Name</label>
+    <input type="text" maxlength="64" name="ownerName" placeholder="First/Last Name, unless you're a rockstar like Jina">
+  </div>
+
+  <div>
+    <label for="ownerUrl">Owner's URL <span>(optional)</span></label>
+    <input type="text" maxlength="128" name="ownerUrl" placeholder="Any site you want to link to">
+  </div>
+
+  <div>
+    <label for="ownerTitle">Owner's Title <span>(optional)</span></label>
+    <input type="text" maxlength="128" name="ownerUrl" placeholder="Your ">
+  </div>
+
+  <button type="submit">Add My Pup!</button>
+
+</form>
