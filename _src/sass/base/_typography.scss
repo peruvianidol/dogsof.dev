@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'Dotties Chocolate';
+  src: url('/fonts/DottiesChocolate-Bold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla';
+  src: url('/fonts/DottiesVanilla-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
   font-family: $font-family-body;
   font-size: $font-size-default;
