@@ -203,5 +203,35 @@
     "ownerUrl": "https://www.instagram.com/ramontherealpug/",
     "ownerTitle": "Software Development Manager",
     "bio": "Ramón, a rescued pug when he was 6 months old. He is now 2 years old. He and his family are Costa Rican and he loves going to forests and explore in the outside."
+  },
+  {
+    "url": "https://www.instagram.com/p/BbFxDFlFav6/",
+    "name": "FBI Agent Burt Mack Macklin",
+    "owner": "Leslie Cohn-Wein",
+    "ownerUrl": "https://leslie.dev/"
+  },
+  {
+    "url": "https://www.instagram.com/p/CJA94c-DsJJ/?igshid=1c31b8meyzp8s",
+    "name": "Ty",
+    "owner": "Suzanne Aitchison",
+    "ownerUrl": "https://www.upyoura11y.com",
+    "ownerTitle": "Software Engineer at Forem/DEV",
+    "bio": "Ty (rhymes with \"hi!\") is a bouncy, cat-obsessed, lurcher. He moved in with us after we adopted him from Edinburgh Dog and Cat Home and he's currently 2ish years old. His favourite activity is waiting for a zoom call to start and squeaking nearby toys relentlessly."
+  },
+  {
+    "url": "https://twitter.com/lucienimmink/status/1358471284229869568",
+    "name": "Rambo",
+    "owner": "Lucien Immink",
+    "ownerUrl": "https://www.arielext.org",
+    "ownerTitle": "Front-end evangelist",
+    "bio": "At 13.5 years old he is still a good boy."
+  },
+  {
+    "url": "https://twitter.com/lucienimmink/status/1358471284229869568",
+    "name": "Cow",
+    "owner": "Steven Petryk",
+    "ownerUrl": "https://stevenpetryk.com",
+    "ownerTitle": "Senior Software Engineer, aha.io",
+    "bio": "Cow is an 8 month old Swiss shepherd. His hobbies include destroying toys, running away from small dogs, and getting his back scratched. "
   }
 ]
