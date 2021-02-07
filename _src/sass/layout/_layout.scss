@@ -49,6 +49,26 @@
   color: $color-text-interactive-highlight;
 }
 
+.dod-nav a {
+  font-size: $font-size-large;
+  line-height: $line-height-large;
+  display: block;
+  height: 2.75rem;
+  width: 2.75rem;
+  line-height: 2.75rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.dod-nav a:hover {
+  background-color: $color-background-button-highlight;
+} 
+
+.dod-nav a[aria-current="page"] {
+  font-family: $font-family-heading;
+  font-weight: $font-weight-bold;
+}
+
 @media (min-width: $breakpoint-medium) {
   .dod-layout-default [data-grid-area="header"] {
     text-align: left;

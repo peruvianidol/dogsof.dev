@@ -1,0 +1,32 @@
+---
+title: Dogs of Dev
+layout: base
+pagination:
+  data: collections.dogs
+  size: 18
+  alias: dogs
+  reverse: true
+---
+<div class="dod-media-grid dod-stack-32">
+{% for dog in dogs %}
+<a href="{{ dog.url }}" class="dod-card">
+  <figure>
+    <div class="dod-img-wrap">
+      <img src="{{ dog.data.image }}" alt="{{ dog.data.title | slug }}">
+    </div>
+    <figcaption>
+      <h2 class="dod-heading-2">{{ dog.data.title}}</h2>
+      <p>{{ dog.data.owner }}</p>
+    </figcaption>
+  </figure>
+</a>
+{% endfor %}
+</div>
+
+<nav class="dod-nav">
+  <ol class="dod-flex-row dod-justify-center">
+  {%- for pageEntry in pagination.pages %}
+      <li><a href="{{ pagination.hrefs[ loop.index0 ] }}"{% if page.url == pagination.hrefs[ loop.index0 ] %} aria-current="page"{% endif %}>{{ loop.index }}</a></li>
+  {%- endfor %}
+  </ol>
+</nav>

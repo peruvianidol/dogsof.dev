@@ -116,5 +116,92 @@
     "name": "Maggie",
     "owner": "Bert Fanslow",
     "ownerUrl": "https://bertfanslow.com/"
+  },
+  {
+    "url": "https://www.instagram.com/p/BpC0jsJl_Z0/?igshid=1b9tfp37y8pkj",
+    "name": "Dana",
+    "owner": "Jesus Ramirez",
+    "ownerUrl": "https://jesusrmz.com/",
+    "ownerTitle": "Freelance frontend dev",
+    "bio": "7yr old Beagle living life in Guadalajara Mexico"
+  },
+  {
+    "url": "https://www.instagram.com/p/BfpdRralmDt/?igshid=15nc6vx990nrw",
+    "name": "Lulu",
+    "owner": "Jesus Ramirez",
+    "ownerUrl": "https://jesusrmz.com/",
+    "ownerTitle": "Freelance frontend dev",
+    "bio": "5yr old kind of pitbull rescued from the streets of Guadalajara Mexico"
+  },
+  {
+    "url": "https://www.instagram.com/p/CKWzgIfn-RV/?igshid=jyk2xhngaj1e",
+    "name": "Pippa",
+    "owner": "Jon Burger",
+    "ownerUrl": "https://www.hamandhoney.com",
+    "ownerTitle": "Experience Design Manager",
+    "bio": "A miniature Jack Russell. Pip (full name Phillipa Mabel Burger) as a pup sustained a head injury whilst with the breeder. As a result she's a crazy little cutie who still wees on the carpet at 2 years old, but is soft and cuddly so nobody can stay cross."
+  },
+  {
+    "url": "https://www.instagram.com/p/CJjzAMAjL_w/?igshid=1b1s8zmf8i32x",
+    "name": "Honey",
+    "owner": "Jon Burger",
+    "ownerUrl": "https://www.hamandhoney.com",
+    "ownerTitle": "Experience Design Manager",
+    "bio": "Honey Fallula Burger. A Jack Russell that's full of life and character - loves to sleep like a hooman, loves her hooman brothers and sisters - super friendly with all dogs - the bigger the better! Like to bark to tell us what's going on or keep us safe."
+  },
+  {
+    "url": "https://www.instagram.com/p/B9xc9JZJz4v/?igshid=29z7yzl6bv16",
+    "name": "Ham",
+    "owner": "Jon Burger",
+    "ownerUrl": "https://www.hamandhoney.com",
+    "ownerTitle": "Experience Design Manager",
+    "bio": "Hamilton Sebastian Burger aka \"Handsome Ham\". Jack Russell. A little bit crazy - likes to chase his tail, do wiggly nervous dances for other dogs (and cats) and kiss faces."
+  },
+  {
+    "url": "https://www.instagram.com/p/CGC8RDtnpmc/",
+    "name": "Maple",
+    "owner": "Rajat Saxena",
+    "ownerUrl": "https://rajatsaxena.dev",
+    "ownerTitle": "Software Engineer",
+    "bio": "Maple died in August 2020 due to liver failure. She was a saint shepherd. We miss her so I would really love to commemorate her using this site."
+  },
+  {
+    "url": "https://photos.app.goo.gl/qah6BXFqHPmKXBVY8",
+    "name": "Milo",
+    "owner": "Alex Trost",
+    "ownerUrl": "https://frontend.horse",
+    "ownerTitle": "Developer Experience Engineer @ Prismic",
+    "bio": "Milo's a rescue mutt from Tennessee now living in Connecticut. He loves to play but is fine with a full day of naps if that's what we're doing. He's 4 years old, is super sweet, causes no trouble, 5 stars."
+  },
+  {
+    "url": "https://twitter.com/cobra_winfrey/status/1334318165489233921",
+    "name": "Petey",
+    "owner": "Adam Kuhn",
+    "ownerUrl": "https://codepen.io/cobra_winfrey",
+    "ownerTitle": "Front End Engineer, Kong Inc"
+  },
+  {
+    "url": "https://twitter.com/PatrickGreyCoUk/status/1358441014562873350",
+    "name": "Belle",
+    "owner": "Patrick Grey",
+    "ownerUrl": "http://risingsky.co.uk/",
+    "ownerTitle": "Developer",
+    "bio": "Loves a tummy rub almost as much as any foodstuff :-)"
+  },
+  {
+    "url": "https://www.instagram.com/charlietherunninggolden/",
+    "name": "Charlie",
+    "owner": "Matt Crowder",
+    "ownerUrl": "https://twitter.com/mcrowder65",
+    "ownerTitle": "Senior Software Engineer at Veeva Systems",
+    "bio": "Originally born in Mena, Arkansas. Charlie now lives in Virginia. He can usually be found pulling his dad on roller blades, or raking up several hundred upvotes on the NoVa subreddit."
+  },
+  {
+    "url": "https://www.instagram.com/p/B3kLAFYC2-p/?igshid=1jqvdhet65dv5",
+    "name": "Ramón",
+    "owner": "Jonathan Velásquez",
+    "ownerUrl": "https://www.instagram.com/ramontherealpug/",
+    "ownerTitle": "Software Development Manager",
+    "bio": "Ramón, a rescued pug when he was 6 months old. He is now 2 years old. He and his family are Costa Rican and he loves going to forests and explore in the outside."
   }
 ]

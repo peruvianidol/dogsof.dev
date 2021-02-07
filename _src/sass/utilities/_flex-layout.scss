@@ -1,3 +1,16 @@
+.dod-flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.dod-flex-row > :not(:last-child) {
+  margin-right: $spacing-8;
+}
+
+.dod-justify-center {
+  justify-content: center;
+}
+
 .dod-flex-row-responsive {
   display: flex;
   flex-direction: column;
