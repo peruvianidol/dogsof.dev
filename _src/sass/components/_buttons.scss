@@ -1,0 +1,26 @@
+[class*="dod-button"] {
+  display: inline-block;
+  background-color: $color-background-button;
+  color: $color-text-body;
+  border-radius: $border-radius-small;
+  font-size: inherit;
+  padding: $spacing-12 $spacing-20;
+  box-shadow: $box-shadow-default;
+  text-decoration: none;
+  font-weight: $font-weight-bold;
+  cursor: pointer;
+}
+
+[class*="dod-button"]:hover {
+  background-color: $color-background-button-highlight;
+}
+
+.dod-button-secondary {
+  box-shadow: none;
+  background-color: $color-background-button-secondary;
+  color: $color-text-inverse;
+}
+
+.dod-button-secondary:hover {
+  background-color: $color-background-button-secondary-highlight;
+}

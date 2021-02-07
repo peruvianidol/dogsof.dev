@@ -1,0 +1,21 @@
+.dod-img-wrap {
+  position: relative;
+  margin-bottom: $spacing-8;
+  border-radius: $border-radius-medium;
+  overflow: hidden;
+}
+
+.dod-img-wrap:before {
+  display: block;
+  content: '';
+  padding-bottom: 100%;
+}
+
+.dod-img-wrap img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

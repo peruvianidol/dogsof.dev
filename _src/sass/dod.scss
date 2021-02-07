@@ -1,29 +1,17 @@
-// * {
-//   box-sizing: border-box;
-// }
-// body {
-//   margin: 0;
-//   font-family: sans-serif;
-//   line-height: 1.25;
-//   padding: 1rem;
-// }
-// h1 {
-//   margin: 0;
-// }
-* {
-  box-sizing: border-box;
-}
-img {
-  display: block;
-  max-width: 100%;
-}
-label {
-  display: block;
-}
-input[type="text"],
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  width: 100%;
-}
+@import '_tokens/tokens';
+
+@import 'base/reset';
+@import 'base/global';
+@import 'base/typography';
+
+@import 'components/type';
+@import 'components/buttons';
+@import 'components/forms';
+@import 'components/cards';
+
+@import 'layout/layout';
+
+@import 'utilities/images';
+@import 'utilities/spacing';
+@import 'utilities/flex-layout';
+

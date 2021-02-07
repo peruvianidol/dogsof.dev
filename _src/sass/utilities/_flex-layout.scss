@@ -1,0 +1,28 @@
+.dod-flex-row-responsive {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: $breakpoint-medium) {
+  .dod-space-between-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dod-space-between-responsive > :not(:last-child) {
+    margin-right: $spacing-16;
+  }
+
+  .dod-flex-row-responsive {
+    flex-direction: row;
+  }
+
+  .dod-flex-row-responsive > :not(:last-child) {
+    margin-right: $spacing-32;
+  }
+
+  .dod-flex-item {
+    flex: 1;
+  }
+}

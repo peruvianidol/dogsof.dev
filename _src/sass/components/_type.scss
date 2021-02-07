@@ -1,0 +1,37 @@
+[class*="dod-heading"] {
+  font-family: $font-family-heading;
+  font-weight: $font-weight-bold;
+  text-decoration: none;
+}
+
+.dod-heading-1 {
+  font-size: $font-size-larger;
+  line-height: $line-height-larger;
+}
+
+.dod-heading-2 {
+  font-size: $font-size-large;
+  line-height: $line-height-large;
+}
+
+.dod-heading-3 {
+  font-size: $font-size-default;
+  line-height: $line-height-default;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .dod-heading-1 {
+    font-size: $font-size-largest;
+    line-height: $line-height-largest;
+  }
+  
+  .dod-heading-2 {
+    font-size: $font-size-larger;
+    line-height: $line-height-larger;
+  }
+
+  .dod-heading-3 {
+    font-size: $font-size-large;
+    line-height: $line-height-large;
+  }
+}

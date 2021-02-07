@@ -6,22 +6,22 @@
   <title>{{ title }}</title>
   <link rel="stylesheet" href="{{ '/css/dod.css' | url }}">
 </head>
-<body>
-  <header>
+<body class="dod-layout-default">
+  <header data-grid-area="header" class="dod-space-between-responsive">
     <div>
-      <h1><a href="/">Dogs of Dev</a></h1>
-      <p>Dogs of people who make websites</p>
+      <h1 class="dod-heading-1 dod-stack-4"><a href="/">Dogs of Dev</a></h1>
+      <p class="dod-heading-3 dod-stack-16">Dogs of people who make websites</p>
     </div>
     {% if title != "Submit a Dog" %}
-    <a href="/submit">Submit a Dog</a>
+    <a href="/submit" class="dod-button">Submit a Dog</a>
     {% endif %}
   </header>
 
-  <main>
+  <main data-grid-area="main" {% if page.url == "/" %}class="dod-media-grid"{% endif %}>
     {{ content | safe }}
   </main>
 
-  <footer>
+  <footer data-grid-area="footer">
     <p>Made with ❤️ by <a href="https://mikeaparicio.com">Mike Aparicio</a>. Built with <a href="https://11ty.dev">Eleventy</a>. Hosted by <a href="https://netlify.com">Netlify</a>. <a href="https://latest.losttype.com/introducing/dotties">Dotties</a> font by <a href="http://www.kyleletendre.com">Kyle Letendre</a>.</a></p>
     
     <p><a href="https://github.com/peruvianidol/dogsof.dev">Contribute on GitHub</a>

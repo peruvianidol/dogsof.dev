@@ -1,0 +1,27 @@
+.dod-stack-4 {
+  margin-bottom: $spacing-4;
+}
+
+.dod-stack-8 {
+  margin-bottom: $spacing-8;
+}
+
+.dod-stack-12 {
+  margin-bottom: $spacing-12;
+}
+
+.dod-stack-16 {
+  margin-bottom: $spacing-16;
+}
+
+.dod-stack-24 {
+  margin-bottom: $spacing-24;
+}
+
+.dod-stack-32 {
+  margin-bottom: $spacing-32;
+}
+
+.dod-flow > :not(:last-child) {
+  margin-bottom: $spacing-24;
+}

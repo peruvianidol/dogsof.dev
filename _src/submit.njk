@@ -3,52 +3,54 @@ title: Submit a Dog
 layout: base
 ---
 
-<h2>{{ title }}</h2>
+<h2 class="dod-heading-2 dod-stack-24">{{ title }}</h2>
 
-<p>Do you make websites? Do you have a dog? Want to see your dog here? Fill out the form here and we'll add them!</p>
+<article class="dod-article dod-flow">
+  <p>Do you make websites? Do you have a dog? Want to see your dog here? Fill out the form here and we'll add them!</p>
 
-<h3>Guidelines</h3>
+  <h3 class="dod-heading-3">Guidelines</h3>
 
-<ul>
-  <li>You <strong>must</strong> make websites. Designers, developers and product folks are all welcome. (Let's be honest though, I'm probably not gonna reject a picture of a cute dog, regardless.)
-  <li>Dogs only, please. This is not catsof.dev or peopleof.dev, thank you.</li>
-  <li>Link to a photo of your dog, preferably on Twitter or Instagram.</li>
-  <li>Refrain from adding artsy filters or stickers/overlays. Let your dog be the star.</li>
-  <li>Please submit multiple dogs separately.</li>
-</ul>
+  <ul>
+    <li>You <strong>must</strong> make websites. Designers, developers and product folks are all welcome. (Let's be honest though, I'm probably not gonna reject a picture of a cute dog, regardless.)
+    <li>Dogs only, please. This is not catsof.dev or peopleof.dev, thank you.</li>
+    <li>Link to a photo of your dog, preferably on Twitter or Instagram.</li>
+    <li>Refrain from adding artsy filters or stickers/overlays. Let your dog be the star.</li>
+    <li>Please submit multiple dogs separately.</li>
+  </ul>
 
-<form name="Submit a Dog" action="/success" netlify>
-  <div>
-    <label for="name">Dog's Name</label>
-    <input type="text" maxlength="32" name="name" required>
-  </div>
+  <form name="Submit a Dog" action="/success" class="dod-flow" netlify>
+    <div>
+      <label for="name" class="dod-label  dod-stack-4">Dog's Name</label>
+      <input type="text" maxlength="32" name="name" class="dod-input" required>
+    </div>
 
-  <div>
-    <label for="url">Dog's Photo</label>
-    <input type="text" maxlength="128" name="url" placeholder="Twitter/Instagram URL" required>
-  </div>
+    <div>
+      <label for="url" class="dod-label  dod-stack-4">Dog's Photo</label>
+      <input type="text" maxlength="128" name="url" placeholder="Twitter/Instagram URL" class="dod-input" required>
+    </div>
 
-  <div>
-    <label for="bio">Dog's Bio (optional, 280 characters)</label>
-    <textarea maxlength="280" name="bio" placeholder="Tell us about your dog!"></textarea>
-    <p><strong>Some ideas:</strong> nicknames, age, likes, where you adopted them from</p>
-  </div>
+    <div>
+      <label for="bio" class="dod-label  dod-stack-4">Dog's Bio (optional, 280 characters)</label>
+      <textarea maxlength="280" name="bio" placeholder="Tell us about your dog!" class="dod-input dod-stack-4"></textarea>
+      <p><strong>Some ideas:</strong> nicknames, age, likes, where you adopted them from</p>
+    </div>
 
-  <div>
-    <label for="ownerName">Owner's Name</label>
-    <input type="text" maxlength="64" name="ownerName" placeholder="First/Last Name, unless you're a rockstar like Jina" required>
-  </div>
+    <div>
+      <label for="ownerName" class="dod-label  dod-stack-4">Owner's Name</label>
+      <input type="text" maxlength="64" name="ownerName" placeholder="First/Last Name, unless you're a rockstar like Jina" class="dod-input" required>
+    </div>
 
-  <div>
-    <label for="ownerUrl">Owner's URL <span>(optional)</span></label>
-    <input type="text" maxlength="128" name="ownerUrl" placeholder="Any site you want to link to">
-  </div>
+    <div>
+      <label for="ownerUrl" class="dod-label  dod-stack-4">Owner's URL <span>(optional)</span></label>
+      <input type="text" maxlength="128" name="ownerUrl" placeholder="Any site you want to link to" class="dod-input">
+    </div>
 
-  <div>
-    <label for="ownerTitle">Owner's Title <span>(optional)</span></label>
-    <input type="text" maxlength="128" name="ownerTitle" placeholder="Your job title/company">
-  </div>
+    <div>
+      <label for="ownerTitle" class="dod-label  dod-stack-4">Owner's Title <span>(optional)</span></label>
+      <input type="text" maxlength="128" name="ownerTitle" placeholder="Your job title/company" class="dod-input">
+    </div>
 
-  <button type="submit">Add My Pup!</button>
+    <button type="submit" class="dod-button-secondary">Add My Pup!</button>
 
-</form>
+  </form>
+</article>

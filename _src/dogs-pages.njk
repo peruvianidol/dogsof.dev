@@ -14,19 +14,23 @@ eleventyComputed:
   ownerUrl: "{{ dog.ownerUrl }}"
 ---
 
-<h2>{{ dog.name }}</h2>
+<h2 class="dod-heading-1 dod-stack-16">{{ dog.name }}</h2>
 
-<img src="/images/{{dog.name | slug }}.jpg" alt="{{ dog.name }}">
+<div class="dod-flex-row-responsive">
+  <div class="dod-flex-item dod-stack-16">
+    <img src="/images/{{dog.name | slug }}.jpg" alt="{{ dog.name }}">
+  </div>
+  <div class="dod-flex-item">
+    {% if dog.bio %}
+    <p class="dod-stack-16">{{ dog.bio }}</p>
+    {% endif %}
 
-{% if dog.bio %}
-<p>{{ dog.bio }}</p>
-{% endif %}
+    <h3 class="dod-heading-3">Owner</h3>
 
-<h3>Owner</h3>
+    <p><a href="{{ dog.ownerUrl }}">{{ dog.owner }}</a></p>
 
-<p><a href="{{ dog.ownerUrl }}">{{ dog.owner }}</a></p>
-
-{% if dog.ownerTitle %}
-<p>{{ dog.ownerTitle }}</p>
-{% endif %}
-
+    {% if dog.ownerTitle %}
+    <p>{{ dog.ownerTitle }}</p>
+    {% endif %}
+  </div>
+</div>

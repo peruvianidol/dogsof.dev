@@ -1,0 +1,63 @@
+.dod-layout-default {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  max-width: $page-max-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dod-layout-default [data-grid-area="header"] {
+  padding: $spacing-16;
+  text-align: center;
+}
+
+.dod-layout-default [data-grid-area="main"] {
+  background-color: $color-background-surface;
+  color: $color-text-body;
+  padding: $spacing-16;
+} 
+
+.dod-layout-default [data-grid-area="footer"] {
+  text-align: center;
+  padding: $spacing-16;
+  font-size: $font-size-default;
+  line-height: $line-height-default;
+}
+
+.dod-layout-default [data-grid-area="footer"] a {
+  text-decoration: underline;
+  text-underline-offset: $offset-default;
+}
+
+.dod-media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.dod-article {
+  max-width: $article-max-width;
+}
+
+.dod-article a {
+  color: $color-text-interactive;
+  text-decoration: underline;
+  text-underline-offset: $offset-default;
+}
+
+.dod-article a:hover {
+  color: $color-text-interactive-highlight;
+}
+
+@media (min-width: $breakpoint-medium) {
+  .dod-layout-default [data-grid-area="header"] {
+    text-align: left;
+    padding: $spacing-32 $spacing-32 $spacing-16 $spacing-32;
+  }
+
+  .dod-layout-default [data-grid-area="main"] {
+    border-radius: $border-radius-large;
+    margin: 0 $spacing-32;
+    padding: $spacing-32;
+  } 
+}
