@@ -9,7 +9,7 @@ layout: base
 tags: dogs
 eleventyComputed:
   title: "{{ dog.name }}"
-  image: "/images/{{ dog.name | slug }}.jpg"
+  image: "./_src/images/{{ dog.name | slug }}.jpg"
   owner: "{{ dog.owner }}"
   ownerUrl: "{{ dog.ownerUrl }}"
 ---
@@ -17,8 +17,8 @@ eleventyComputed:
 <h2 class="dod-heading-1 dod-stack-16">{{ dog.name }}</h2>
 
 <article class="dod-flex-row-responsive dod-article">
-  <div class="dod-flex-item dod-stack-16">
-    <img src="/images/{{dog.name | slug }}.jpg" alt="{{ dog.name }}">
+  <div class="dod-flex-item dod-stack-16 dod-image-autoheight">
+    {% image image, dog.name, "(min-width: 43.75em) 50vw, 100vw" %}
   </div>
   <div class="dod-flex-item">
     {% if dog.bio %}
