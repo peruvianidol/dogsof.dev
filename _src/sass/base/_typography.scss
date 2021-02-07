@@ -44,6 +44,7 @@ ol:not([class]) li:not(:last-child) {
 
 strong {
   font-family: $font-family-heading;
+  font-weight: $font-weight-bold;
 }
 
 @media (min-width: $breakpoint-medium) {
