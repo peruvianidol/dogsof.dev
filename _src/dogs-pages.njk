@@ -16,11 +16,13 @@ eleventyComputed:
 
 <h2 class="dod-heading-1 dod-stack-16">{{ dog.name }}</h2>
 
-<article class="dod-flex-row-responsive dod-article">
+<div class="dod-flex-row-responsive">
   <div class="dod-flex-item dod-stack-16">
-    <img src="/images/{{dog.name | slug }}.jpg" alt="{{ dog.name }}">
+    {# <img src="/images/{{ dog.name | slug}}.jpg" alt="{{ dog.name }}"> #}
+    {% set dogpic = "/images/" + dog.name | slug + ".jpg" %}
+    {% image dogpic, dog.name %}
   </div>
-  <div class="dod-flex-item">
+  <article class="dod-flex-item dod-article">
     {% if dog.bio %}
     <p class="dod-stack-16">{{ dog.bio }}</p>
     {% endif %}
@@ -32,5 +34,5 @@ eleventyComputed:
     {% if dog.ownerTitle %}
     <p>{{ dog.ownerTitle }}</p>
     {% endif %}
-  </div>
-</article>
+  </article>
+</div>

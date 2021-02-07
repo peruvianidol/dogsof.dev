@@ -1,0 +1,14 @@
+---
+title: All Dogs
+layout: base
+---
+
+<article class="dod-article">
+  <h2 class="dod-heading-2 dod-stack-32">All Dogs</h2>
+
+  <ul>
+{% for dog in dogs -%}
+  <li><a href="/dogs/{{ dog.name | slug}}/">{{ dog.name }}</a></li>
+{% endfor %}
+  </ul>
+</article>
