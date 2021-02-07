@@ -16,7 +16,7 @@ eleventyComputed:
 
 <h2 class="dod-heading-1 dod-stack-16">{{ dog.name }}</h2>
 
-<div class="dod-flex-row-responsive">
+<article class="dod-flex-row-responsive dod-article">
   <div class="dod-flex-item dod-stack-16">
     <img src="/images/{{dog.name | slug }}.jpg" alt="{{ dog.name }}">
   </div>
@@ -33,4 +33,4 @@ eleventyComputed:
     <p>{{ dog.ownerTitle }}</p>
     {% endif %}
   </div>
-</div>
+</article>
