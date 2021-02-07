@@ -42,6 +42,10 @@ ol:not([class]) li:not(:last-child) {
   margin-bottom: $spacing-4;
 }
 
+strong {
+  font-family: $font-family-heading;
+}
+
 @media (min-width: $breakpoint-medium) {
   body {
     font-size: $font-size-large;
