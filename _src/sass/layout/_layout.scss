@@ -11,6 +11,14 @@
   text-align: center;
 }
 
+.dod-layout-default [data-grid-area="header"] .dod-heading-1 {
+  text-shadow: $text-shadow-large;
+}
+
+.dod-layout-default [data-grid-area="header"] .dod-heading-3 {
+  text-shadow: $text-shadow-small;
+}
+
 .dod-layout-default [data-grid-area="main"] {
   background-color: $color-background-surface;
   color: $color-text-body;

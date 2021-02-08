@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 ul:not([class]), 
 ol:not([class]) {
-  padding-left: $spacing-16;
+  padding-left: $spacing-32;
 }
 
 ul:not([class]) li:not(:last-child),

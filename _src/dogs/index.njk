@@ -4,11 +4,11 @@ layout: base
 ---
 
 <article class="dod-article">
-  <h2 class="dod-heading-2 dod-stack-32">All Dogs</h2>
+  <h2 class="dod-heading-2 dod-stack-32">All {{ collections.dogs.length }} Dogs</h2>
 
-  <ul>
+  <ol>
 {% for dog in dogs -%}
   <li><a href="/dogs/{{ dog.name | slug}}/">{{ dog.name }}</a></li>
 {% endfor %}
-  </ul>
+  </ol>
 </article>

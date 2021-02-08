@@ -265,5 +265,113 @@
     "ownerUrl": "https://femKreations.com",
     "ownerTitle": "WordPress developer",
     "bio": "I'm a golden doodle living with my family in Silicon Valley. I love belly rubs, car rides and food."
+  },
+  {
+    "url": "https://twitter.com/pureux/status/1298729888397037569?s=21",
+    "name": "Roscoe and Bandit",
+    "owner": "Tim Franklin",
+    "ownerUrl": "https://twitter.com/pureux",
+    "ownerTitle": "UI Developer Manager, Design System",
+    "bio": "Roscoe and Bandit are very good boys. They are each Oklahoma rescue dogs miniature schnauzers who love that I work from home now. We’ve had them for 5 and 6 years respectively. They love snuggling in my lap when there isn’t a computer in the way, and sometimes even if there is."
+  },
+  {
+    "url": "https://www.instagram.com/p/CE2BAMUIMk5/",
+    "name": "Morty",
+    "owner": "Janis Walliser",
+    "ownerUrl": "https://github.com/PhyberApex",
+    "ownerTitle": "Competence Lead Software Security",
+    "bio": "Hey, my name is Morty. I'm a golden retriever and a good boy. Im three years old and love my family."
+  },
+  {
+    "url": "https://pbs.twimg.com/media/EtpqH5YUUAAaCrh?format=jpg&name=large",
+    "name": "Lupe",
+    "owner": "Andrew Aquino",
+    "ownerUrl": "https://aqandrew.com",
+    "ownerTitle": "UI Engineer",
+    "bio": "Lupe is a 3 year-old deer head chihuahua. She was found as a 2 year-old stray, and has convinced Andrew that chihuahuas can be really really cute. Lupe loves to run, cuddle, and get bellyrubs from people she has just met."
+  },
+  {
+    "url": "https://www.instagram.com/p/B3DYI2SAHVT/",
+    "name": "Frankie",
+    "owner": "Alex Carpenter",
+    "ownerUrl": "https://alexcarpenter.me",
+    "ownerTitle": "UI Engineer"
+  },
+  {
+    "url": "https://www.instagram.com/p/CGtFd8-Be_t/?igshid=x62vn6xwwt2d",
+    "name": "Walter",
+    "owner": "Tracey Berg-Fulton/Patrick Fulton",
+    "ownerTitle": "Tracey: Front End Engineer, National Kidney Foundation/ Patrick: Developer, Sparkbox",
+    "bio": "Walter is a social butterfly who has a neighborhood fan club. His eyebrows cannot be stopped. Named after Walter Matheau of Grumpy Old Men fame."
+  },
+  {
+    "url": "https://twitter.com/Craig_PointC/status/1041419085160968192",
+    "name": "Rudy",
+    "owner": "Craig Roblewsky",
+    "ownerUrl": "https://www.motiontricks.com/",
+    "ownerTitle": "Design studio partner/web animation tutorial creator",
+    "bio": "Rudy is a 14-year-old dachshund with impressive napping skills living in the Seattle area. He was adopted as a 10-year-old senior and has only gotten better with age. He's also a total foodie who is always cruising the kitchen for snacks."
+  },
+  {
+    "url": "https://twitter.com/Craig_PointC/status/1349778020647673856/photo/3",
+    "name": "Dewey",
+    "owner": "Craig Roblewsky",
+    "ownerUrl": "https://www.motiontricks.com/",
+    "ownerTitle": "Design studio partner/web animation tutorial creator",
+    "bio": "Dewey is a 10-year-old dachshund living in the Seattle area. His skills include napping, barking at birds and finding an available lap in any situation. He's a special needs dog with a few medical conditions and only 3 teeth, but despite it all, he's the sweetest little guy."
+  },
+  {
+    "url": "https://twitter.com/richardcarter/status/1344724959134937092?s=21",
+    "name": "Diesel",
+    "owner": "Richard Carter",
+    "ownerUrl": "https://www.peacockcarter.com",
+    "ownerTitle": "Peacock Carter",
+    "bio": "Lurcher rescued from Dogs Trust. Lover of sofas, cheese and electric blankets. Naughty, but handsome enough to get away with it."
+  },
+  {
+    "url": "https://www.instagram.com/p/CHVe6wGp47B/?igshid=4wclh9e8nj0t",
+    "name": "Brody",
+    "owner": "Amber Weinberg",
+    "ownerUrl": "http://www.amberweinberg.com",
+    "ownerTitle": "Developer"
+  },
+  {
+    "url": "https://www.instagram.com/p/CH3e875JJ2X/?igshid=11urspym6vrak",
+    "name": "Stanley",
+    "owner": "Ben Lowery",
+    "ownerUrl": "https://tumblr.com",
+    "ownerTitle": "Core Web Lead"
+  },
+  {
+    "url": "https://www.instagram.com/p/CGeAufajEdR/",
+    "name": "Remus",
+    "owner": "Amy Kapernick",
+    "ownerUrl": "https://amyskapers.dev",
+    "ownerTitle": "Front End Dev, Speaker, Dog Lover",
+    "bio": "Remus (or Remi to his friends), likes to play with his pig, loves having visitors and takes his role as a living Pomodoro timer very seriously!"
+  },
+  {
+    "url": "https://www.instagram.com/p/BoZ2xfGllAc/?igshid=1496x704r9dab",
+    "name": "Atlas",
+    "owner": "Isabela Moreira",
+    "ownerUrl": "https://Isabela.dev",
+    "ownerTitle": "Software engineer, Microsoft",
+    "bio": "Loves herding, fetch, and anything to do with food. Rescued and raised in Seattle ❤️"
+  },
+  {
+    "url": "https://www.instagram.com/p/B6LqZSUA87p/",
+    "name": "Samson",
+    "owner": "Scott Tolinski",
+    "ownerUrl": "https://www.leveluptutorials.com/",
+    "ownerTitle": "Owner",
+    "bio": "Sammy is a crumb hound. He's a very chill, snuggly guy."
+  },
+  {
+    "url": "https://www.instagram.com/p/BnsDL7VB4J6/",
+    "name": "Lucie Moon",
+    "owner": "Scott Tolinski",
+    "ownerUrl": "https://www.leveluptutorials.com/",
+    "ownerTitle": "Owner",
+    "bio": "Lucie is a high energy Puli who loves guarding the house and taking care of flock."
   }
 ]
