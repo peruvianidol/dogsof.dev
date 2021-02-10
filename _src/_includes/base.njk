@@ -10,15 +10,16 @@
   <link rel="preload" href="/fonts/DottiesVanilla-Light.woff2" as="font" type="font/woff2" crossorigin>
 
   <meta property="og:title" content="{% if page.url != "/" %}{{title}} | {% endif %}{{ site.title }}">
+  <meta property="twitter:title" content="{% if page.url != "/" %}{{title}} | {% endif %}{{ site.title }}">
   <meta property="og:description" content="{{ dog.bio if dog.bio else site.description}}">
+  <meta property="twitter:description" content="{{ dog.bio if dog.bio else site.description}}">
   <meta property="og:image" content="{{ socialImg if socialImg else site.socialImg}}">
+  <meta property="twitter:image" content="{{ socialImg if socialImg else site.socialImg}}">
   <meta property="og:url" content="{{ site.url}}{{ page.url }}">
   <meta name="twitter:card" content="summary_large_image">
-
   <meta property="og:site_name" content="{{ title }}">
   <meta name="twitter:image:alt" content="{{ site.description }}">
-
-  <meta name="twitter:site" content="@peruvianidol">
+  <meta name="twitter:creator" content="@peruvianidol">
 </head>
 <body class="dod-layout-default">
   <header data-grid-area="header" class="dod-space-between-responsive">
