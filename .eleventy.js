@@ -28,6 +28,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addWatchTarget("./_src/sass/");
   eleventyConfig.addPassthroughCopy("./_src/images/");
   eleventyConfig.addPassthroughCopy("./_src/fonts/");
+  eleventyConfig.addPassthroughCopy("./_src/css/");
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
   return {

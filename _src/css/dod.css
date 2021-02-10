@@ -1,0 +1,413 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+*::before,
+*::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+body {
+  background-color: #0073E6;
+  color: #ffffff;
+}
+
+button {
+  border: 0;
+}
+
+@font-face {
+  font-family: "Dotties Chocolate";
+  src: url("/fonts/DottiesChocolate-Bold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Dotties Vanilla";
+  src: url("/fonts/DottiesVanilla-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  font-family: "Dotties Vanilla", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+a:not([class]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-size: inherit;
+  line-height: inherit;
+  font-weight: inherit;
+}
+
+ul:not([class]),
+ol:not([class]) {
+  padding-left: 2rem;
+}
+
+ul:not([class]) li:not(:last-child),
+ol:not([class]) li:not(:last-child) {
+  margin-bottom: 0.25rem;
+}
+
+strong {
+  font-family: "Dotties Chocolate", sans-serif;
+  font-weight: 600;
+}
+
+@media (min-width: 700px) {
+  body {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+[class*=dod-heading] {
+  font-family: "Dotties Chocolate", sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.dod-heading-1 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+}
+
+.dod-heading-2 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.dod-heading-3 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  .dod-heading-1 {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .dod-heading-2 {
+    font-size: 2rem;
+    line-height: 2.25rem;
+  }
+
+  .dod-heading-3 {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+[class*=dod-button] {
+  font-family: "Dotties Chocolate", sans-serif;
+  display: inline-block;
+  background-color: #ffd700;
+  color: #262626;
+  border-radius: 0.25rem;
+  font-size: inherit;
+  padding: 0.75rem 1.25rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+[class*=dod-button]:hover {
+  background-color: yellow;
+}
+
+.dod-button-secondary {
+  box-shadow: none;
+  background-color: #745EED;
+  color: #ffffff;
+}
+
+.dod-button-secondary:hover {
+  background-color: #D100D1;
+}
+
+.dod-label {
+  font-weight: 600;
+  display: block;
+}
+
+.dod-input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 1px solid #E8E8E8;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+}
+
+.dod-card:hover img {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.dod-card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.dod-card:hover {
+  color: #D100D1;
+}
+
+.dod-layout-default {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.dod-layout-default [data-grid-area=header] {
+  padding: 1rem;
+  text-align: center;
+}
+
+.dod-layout-default [data-grid-area=header] .dod-heading-1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.dod-layout-default [data-grid-area=header] .dod-heading-3 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.dod-layout-default [data-grid-area=main] {
+  background-color: #ffffff;
+  color: #262626;
+  padding: 1rem;
+}
+
+.dod-layout-default [data-grid-area=footer] {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.dod-layout-default [data-grid-area=footer] a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.dod-media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 1rem;
+}
+
+.dod-article {
+  max-width: 60ch;
+}
+
+.dod-article a {
+  color: #0073E6;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.dod-article a:hover {
+  color: #D100D1;
+}
+
+.dod-nav a {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  display: block;
+  height: 2.75rem;
+  width: 2.75rem;
+  line-height: 2.75rem;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.dod-nav a:hover {
+  background-color: yellow;
+}
+
+.dod-nav a[aria-current=page] {
+  font-family: "Dotties Chocolate", sans-serif;
+  font-weight: 600;
+}
+
+@media (min-width: 700px) {
+  .dod-layout-default [data-grid-area=header] {
+    text-align: left;
+    padding: 2rem 2rem 1rem 2rem;
+  }
+
+  .dod-layout-default [data-grid-area=main] {
+    border-radius: 1rem;
+    margin: 0 2rem;
+    padding: 2rem;
+  }
+}
+.dod-img-wrap {
+  position: relative;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.dod-img-wrap:before {
+  display: block;
+  content: "";
+  padding-bottom: 100%;
+}
+
+.dod-img-wrap img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dod-image-autoheight img {
+  width: 100%;
+  height: auto;
+}
+
+.dod-stack-4 {
+  margin-bottom: 0.25rem;
+}
+
+.dod-stack-8 {
+  margin-bottom: 0.5rem;
+}
+
+.dod-stack-12 {
+  margin-bottom: 0.75rem;
+}
+
+.dod-stack-16 {
+  margin-bottom: 1rem;
+}
+
+.dod-stack-24 {
+  margin-bottom: 1.5rem;
+}
+
+.dod-stack-32 {
+  margin-bottom: 2rem;
+}
+
+.dod-flow > :not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+
+.dod-flex-row {
+  display: flex;
+  align-items: center;
+}
+
+.dod-flex-row > :not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.dod-justify-center {
+  justify-content: center;
+}
+
+.dod-flex-row-responsive {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 700px) {
+  .dod-space-between-responsive {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dod-space-between-responsive > :not(:last-child) {
+    margin-right: 1rem;
+  }
+
+  .dod-flex-row-responsive {
+    flex-direction: row;
+  }
+
+  .dod-flex-row-responsive > :not(:last-child) {
+    margin-right: 2rem;
+  }
+
+  .dod-flex-item {
+    flex: 1;
+  }
+}
+
+/*# sourceMappingURL=dod.css.map */

@@ -1,9 +1,3 @@
-/* Tokens */
-
-/* global tokens */
-
-/* colors */
-
 $blue-600: #0073E6;
 $purple-600: #745EED;
 $magenta-600: #D100D1;
@@ -15,7 +9,6 @@ $gray-600: #595959;
 $black: #262626;
 $shadow: rgba(0,0,0,.5);
 
-/* type */
 $font-size-default: 1rem;
 $font-size-large: 1.25rem;
 $font-size-larger: 2rem;
@@ -35,7 +28,6 @@ $font-family-body: "Dotties Vanilla", sans-serif;
 $text-shadow-small: 1px 1px 2px $shadow;
 $text-shadow-large: 2px 2px 4px $shadow;
 
-/* spacing */
 $spacing-4: .25rem;
 $spacing-8: .5rem;
 $spacing-12: .75rem;
@@ -44,7 +36,6 @@ $spacing-20: 1.25rem;
 $spacing-24: 1.5rem;
 $spacing-32: 2rem;
 
-/* borders */
 $border-radius-small: .25rem;
 $border-radius-medium: .5rem;
 $border-radius-large: 1rem;
@@ -59,8 +50,6 @@ $breakpoint-medium: 700px;
 $page-max-width: 1080px;
 $article-max-width: 60ch;
 
-/* contextual tokens */
-
 $color-text-body: $black;
 $color-text-inverse: $white;
 $color-text-interactive: $blue-600;
@@ -74,5 +63,3 @@ $color-background-button-highlight: $yellow-600;
 $color-background-button-secondary: $purple-600;
 $color-background-button-secondary-highlight: $magenta-600;
 $color-border-default: $gray-200;
-
-/* component tokens */
