@@ -3,13 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title }}</title>
+  <title>{% if url != "/" %}{{title}} | {% endif %}{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/css/dod.css' | url }}">
-  <meta name="description" content="{{ site.description }}" />
-  <meta name="twitter:description" content="{{ site.description }}" />
-  <meta property="og:description" content="{{ site.description }}" />
+  <meta name="description" content="{% if url != "/" %}{{title}} | {% endif %}{{ site.title }}">
   <link rel="preload" href="/fonts/DottiesChocolate-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/DottiesVanilla-Light.woff2" as="font" type="font/woff2" crossorigin>
+
+  <meta property="og:title" content="{% if url != "/" %}{{title}} | {% endif %}{{ site.title }}">
+  <meta property="og:description" content="{{ dog.bio if dog.bio else site.description}}">
+  <meta property="og:image" content="{{ socialImg if socialImg else site.socialImg}}">
+  <meta property="og:url" content="{{ site.url}}{{ page.url }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta property="og:site_name" content="{{ title }}">
+  <meta name="twitter:image:alt" content="{{ site.description }}">
+
+  <meta name="twitter:site" content="@peruvianidol">
 </head>
 <body class="dod-layout-default">
   <header data-grid-area="header" class="dod-space-between-responsive">

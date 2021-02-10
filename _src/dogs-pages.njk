@@ -10,6 +10,8 @@ tags: dogs
 eleventyComputed:
   title: "{{ dog.name }}"
   image: "./_src/images/{{ dog.permalink if dog.permalink else dog.name | slug }}.jpg"
+  socialImg: "/images/{{ dog.permalink if dog.permalink else dog.name | slug }}.jpg"
+  bio: "{{ dog.bio }}"
   owner: "{{ dog.owner }}"
   ownerUrl: "{{ dog.ownerUrl }}"
 ---
