@@ -8,7 +8,7 @@ layout: base
 
   <ol>
 {% for dog in dogs -%}
-  <li><a href="/dogs/{{ dog.name | slug}}/">{{ dog.name }}</a></li>
+  <li><a href="/dogs/{{ dog.permalink if dog.permalink else dog.name | slug}}/">{{ dog.name }}</a></li>
 {% endfor %}
   </ol>
 </article>

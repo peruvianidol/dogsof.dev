@@ -4,12 +4,12 @@ pagination:
   size: 1
   alias: dog
   addAllPagesToCollections: true
-permalink: "dogs/{{dog.name | slug }}/"
+permalink: "dogs/{{dog.permalink if dog.permalink else dog.name | slug }}/"
 layout: base
 tags: dogs
 eleventyComputed:
   title: "{{ dog.name }}"
-  image: "./_src/images/{{ dog.name | slug }}.jpg"
+  image: "./_src/images/{{ dog.permalink if dog.permalink else dog.name | slug }}.jpg"
   owner: "{{ dog.owner }}"
   ownerUrl: "{{ dog.ownerUrl }}"
 ---

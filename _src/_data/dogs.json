@@ -441,5 +441,29 @@
     "ownerUrl": "https://wiegand.io/",
     "ownerTitle": "Creative Technologist. Adventurer. Programmer. Consultant. Speaker.",
     "bio": "Miss Muffin is a welsh corgi cardigan, born in 2009. She lives and reign like a queen in Karlsruhe, Germany."
+  },
+  {
+    "url": "https://www.seanmcp.com/img/abby-1.jpg",
+    "name": "Abby",
+    "owner": "Sean McPherson",
+    "ownerUrl": "https://seanmcp.com",
+    "bio": "Abby is a three-legged rescue with a heart of gold. She loves short walks (read: hops), chasing groundhogs, and eating carrot tops."
+  },
+  {
+    "url": "https://www.instagram.com/p/MEApa8KzJ2/",
+    "name": "Brody",
+    "permalink": "brody-2",
+    "owner": "Cassie Evans",
+    "ownerUrl": "https://www.cassie.codes/",
+    "ownerTitle": "Creative Developer",
+    "bio": "Brody is a rescue from Romania. His English is getting better - his favourite words are sausage and walk. When he's not doing zoomies or sleeping he likes to sing along to opera music."
+  },
+  {
+    "url": "https://twitter.com/Opherv/status/1155721348704067585/photo/1",
+    "name": "Blizzard",
+    "owner": "Opher Vishnia",
+    "ownerUrl": "https://twitter.com/opherv",
+    "ownerTitle": "Designer, developer, musician and overall a pretty nice guy",
+    "bio": "An experienced Fur Stack Barkitect, Blizzard is a White Swiss Shepherd that spends his days trolling his owners to throw him the ball but not actually giving it to them"
   }
 ]
