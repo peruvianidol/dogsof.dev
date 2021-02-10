@@ -13,8 +13,8 @@
   <meta property="twitter:title" content="{% if page.url != "/" %}{{title}} | {% endif %}{{ site.title }}">
   <meta property="og:description" content="{{ dog.bio if dog.bio else site.description}}">
   <meta property="twitter:description" content="{{ dog.bio if dog.bio else site.description}}">
-  <meta property="og:image" content="{{ socialImg if socialImg else site.socialImg}}">
-  <meta property="twitter:image" content="{{ socialImg if socialImg else site.socialImg}}">
+  <meta property="og:image" content="{{ site.url}}{{ socialImg if socialImg else site.socialImg}}">
+  <meta property="twitter:image" content="{{ site.url}}{{ socialImg if socialImg else site.socialImg}}">
   <meta property="og:url" content="{{ site.url}}{{ page.url }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:site_name" content="{{ title }}">
