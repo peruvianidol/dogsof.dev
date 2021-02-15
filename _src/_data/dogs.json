@@ -511,5 +511,13 @@
     "ownerUrl": "https://www.juanfernandes.uk",
     "ownerTitle": "Frontend Developer",
     "bio": "Very bouncy and energetic. Doesn't like the cold."
+  },
+  {
+    "url": "https://www.instagram.com/p/B4ZxnbwAA2x/",
+    "name": "Swift",
+    "owner": "Gavin Clark",
+    "ownerUrl": "https://everpress.com",
+    "ownerTitle": "VP Engineering @ Everpress",
+    "bio": "Swift (Swifty) has the kennel club name \"Chazak - Dressed to impress\" because when he was a puppy it looked like he was wearing a tuxedo. He enjoys parks for their squirrels and loaves of brown bread. But his favourite place is the office."
   }
 ]
