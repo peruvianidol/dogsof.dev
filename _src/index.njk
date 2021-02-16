@@ -6,6 +6,7 @@ pagination:
   size: 18
   alias: dogs
   reverse: true
+permalink: "{% if pagination.pageNumber>0 %}/{{ pagination.pageNumber + 1 }}{% endif %}/index.html"
 ---
 <div class="dod-media-grid dod-stack-32">
 {% for dog in dogs %}
