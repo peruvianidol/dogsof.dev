@@ -19,6 +19,11 @@
   line-height: $line-height-default;
 }
 
+.dod-text-small {
+  font-size: $font-size-small;
+  line-height: $line-height-small;
+}
+
 @media (min-width: $breakpoint-medium) {
   .dod-heading-1 {
     font-size: $font-size-largest;

@@ -22,6 +22,10 @@
   margin-bottom: $spacing-32;
 }
 
-.dod-flow > :not(:last-child) {
+.dod-stack-48 {
+  margin-bottom: $spacing-48;
+}
+
+.dod-flow > :not(:last-child):not([class*="dod-stack"]) {
   margin-bottom: $spacing-24;
 }

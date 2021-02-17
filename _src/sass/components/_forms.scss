@@ -1,6 +1,17 @@
+.dod-form {
+  max-width: 40ch;
+  padding: $spacing-32;
+  background-color: $blue-200;
+  border-radius: $border-radius-medium;
+}
+
 .dod-label {
   font-weight: 600;
   display: block;
+}
+
+.dod-label .dod-text-small {
+  font-weight: $font-weight-light;
 }
 
 .dod-input {
@@ -9,4 +20,13 @@
   border: $border-width-thin solid $color-border-default;
   border-radius: $border-radius-small;
   padding: $spacing-8;
+}
+
+textarea.dod-input {
+  resize: vertical;
+}
+
+::placeholder {
+  font-size: $font-size-default;
+  line-height: $line-height-default;
 }

@@ -151,6 +151,11 @@ strong {
   line-height: 1.5rem;
 }
 
+.dod-text-small {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 @media (min-width: 700px) {
   .dod-heading-1 {
     font-size: 4rem;
@@ -195,9 +200,20 @@ strong {
   background-color: #D100D1;
 }
 
+.dod-form {
+  max-width: 40ch;
+  padding: 2rem;
+  background-color: #ADD8E6;
+  border-radius: 0.5rem;
+}
+
 .dod-label {
   font-weight: 600;
   display: block;
+}
+
+.dod-label .dod-text-small {
+  font-weight: 300;
 }
 
 .dod-input {
@@ -206,6 +222,15 @@ strong {
   border: 1px solid #E8E8E8;
   border-radius: 0.25rem;
   padding: 0.5rem;
+}
+
+textarea.dod-input {
+  resize: vertical;
+}
+
+::placeholder {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .dod-card:hover img {
@@ -268,7 +293,7 @@ strong {
 }
 
 .dod-article {
-  max-width: 60ch;
+  max-width: 50ch;
 }
 
 .dod-article a {
@@ -364,7 +389,11 @@ strong {
   margin-bottom: 2rem;
 }
 
-.dod-flow > :not(:last-child) {
+.dod-stack-48 {
+  margin-bottom: 3rem;
+}
+
+.dod-flow > :not(:last-child):not([class*=dod-stack]) {
   margin-bottom: 1.5rem;
 }
 

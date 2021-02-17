@@ -10,15 +10,17 @@ layout: base
 
   <h3 class="dod-heading-3">Guidelines</h3>
 
-  <ul>
-    <li>You <strong>must</strong> make websites. Designers, developers and product folks are all welcome. (Let's be honest though, I'm probably not gonna reject a picture of a cute dog, regardless.)
-    <li>Dogs only, please. This is not catsof.dev or peopleof.dev, thank you.</li>
-    <li>Link to a photo of your dog, preferably on Twitter or Instagram. (I won't be able to access links on private accounts.)</li>
-    <li>Refrain from adding artsy filters or stickers/overlays. Let your dog be the star.</li>
-    <li>Please submit multiple dogs separately.</li>
-  </ul>
+  <div class="dod-stack-32">
+    <ul>
+      <li>You <strong>must</strong> make websites. Designers, developers and product folks are all welcome. (Let's be honest though, I'm probably not gonna reject a picture of a cute dog, regardless.)
+      <li>Dogs only, please. This is not catsof.dev or peopleof.dev, thank you.</li>
+      <li>Link to a photo of your dog, preferably on Twitter or Instagram. (I won't be able to access links on private accounts.)</li>
+      <li>Refrain from adding artsy filters or stickers/overlays. Let your dog be the star.</li>
+      <li>Please submit multiple dogs separately.</li>
+    </ul>
+  </div>
 
-  <form name="Submit a Dog" action="/success" class="dod-flow" netlify>
+  <form name="Submit a Dog" action="/success" class="dod-form dod-flow" netlify>
     <div>
       <label for="name" class="dod-label  dod-stack-4">Dog's Name</label>
       <input type="text" maxlength="32" name="name" class="dod-input" required>
@@ -30,9 +32,12 @@ layout: base
     </div>
 
     <div>
-      <label for="bio" class="dod-label  dod-stack-4">Dog's Bio (optional, 280 characters)</label>
-      <textarea maxlength="280" name="bio" placeholder="Tell us about your dog!" class="dod-input dod-stack-4"></textarea>
-      <p><strong>Some ideas:</strong> nicknames, age, likes, where you adopted them from</p>
+      <div class="dod-space-between-responsive dod-stack-4">
+        <label for="bio" class="dod-label">Dog's Bio <span class="dod-text-small">(optional)</span></label>
+        <p class="dod-text-small"><span id="character-count">280</span> characters</p>
+      </div>
+      <textarea maxlength="280" rows="3" name="bio" placeholder="Tell us about your dog!" class="dod-input dod-stack-4"></textarea>
+      <p class="dod-text-small">Some ideas: nicknames, age, breed(s), likes, where you adopted them from</p>
     </div>
 
     <div>
@@ -41,12 +46,12 @@ layout: base
     </div>
 
     <div>
-      <label for="ownerUrl" class="dod-label  dod-stack-4">Owner's URL <span>(optional)</span></label>
+      <label for="ownerUrl" class="dod-label  dod-stack-4">Owner's URL <span class="dod-text-small">(optional)</span></label>
       <input type="text" maxlength="128" name="ownerUrl" placeholder="Any site you want to link to" class="dod-input">
     </div>
 
     <div>
-      <label for="ownerTitle" class="dod-label  dod-stack-4">Owner's Title <span>(optional)</span></label>
+      <label for="ownerTitle" class="dod-label  dod-stack-4">Owner's Title <span class="dod-text-small">(optional)</span></label>
       <input type="text" maxlength="128" name="ownerTitle" placeholder="Your job title/company" class="dod-input">
     </div>
 
@@ -54,3 +59,12 @@ layout: base
 
   </form>
 </article>
+
+<script>
+  let textarea = document.querySelector('textarea');
+  let counter = document.querySelector('#character-count');
+
+  textarea.addEventListener('input', function(event) {
+    counter.textContent = 280 - textarea.value.length;
+  });
+</script>
