@@ -203,8 +203,9 @@ strong {
 .dod-form {
   max-width: 40ch;
   padding: 2rem;
-  background-color: #ADD8E6;
+  background-color: #FFF8DC;
   border-radius: 0.5rem;
+  border: 1px solid #E8E8E8;
 }
 
 .dod-label {

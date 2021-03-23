@@ -1,8 +1,9 @@
 .dod-form {
   max-width: 40ch;
   padding: $spacing-32;
-  background-color: $blue-200;
+  background-color: $yellow-200;
   border-radius: $border-radius-medium;
+  border: $border-width-thin solid $gray-200;
 }
 
 .dod-label {
