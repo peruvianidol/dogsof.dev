@@ -6,7 +6,7 @@ async function imageShortcode(src, alt, sizes) {
     process.env.CONTEXT === "branch-deploy";
 
   let metadata = await Image(src, {
-    widths: [400, 800],
+    widths: [400],
     // use fewer formats on localhost to speed up builds
     formats: isOnNetlify ? ["avif", "webp", "jpeg"] : [null],
     outputDir: "./_site/images/generated/",
