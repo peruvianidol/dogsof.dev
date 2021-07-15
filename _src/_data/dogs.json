@@ -542,5 +542,36 @@
     "ownerUrl": "https://resume-rakshithbellare.netlify.app",
     "ownerTitle": "Senior Software Engineer",
     "bio": "3.5 years old, indie, picked from the streets, very chill guy"
+  },
+  {
+    "url": "https://twitter.com/SteveALee/status/1415723414854193153/photo/1",
+    "name": "Montie",
+    "owner": "Steve Lee",
+    "ownerUrl": "https://www.opendirective.com/",
+    "ownerTitle": "W3C a11y stuff",
+    "bio": "A rescue poodle-ish with very calm nature - unless out cat is around when it's \"play time\""
+  },
+  {
+    "url": "https://pbs.twimg.com/media/E3ydhkkVIAElkCC?format=jpg&name=large",
+    "name": "Sophia Lorem Ipsum",
+    "owner": "Colin Fahrion",
+    "ownerUrl": "https://twitter.com/colinaut",
+    "bio": "Hi, I’m adopted terrier mix (of some sort). Adopted from Finding a Best Friend Rescue! 14lbs, likes 🧀, Gotcha day 7/15/20"
+  },
+  {
+    "url": "https://twitter.com/Accudio/status/1415757630543474694/photo/1",
+    "name": "Loutro",
+    "owner": "Alistair Shepherd",
+    "ownerUrl": "https://alistairshepherd.uk",
+    "ownerTitle": "Front End Developer",
+    "bio": "She's a cross between a Border Collie and Chesapeake Bay Retriever and is super chill as long as you're not throwing a stick. If you do happen to have a stick then good luck - you'll need it."
+  },
+  {
+    "url": "https://twitter.com/Accudio/status/1415757630543474694/photo/2",
+    "name": "Torrin",
+    "owner": "Alistair Shepherd",
+    "ownerUrl": "https://alistairshepherd.uk",
+    "ownerTitle": "Front End Developer",
+    "bio": "Torrin is a cross between a Bearded Collie and Border Collie. Her hair grows to about 30cm long and GETS EVERYWHERE. She's best likened to a Gremlin—she looks very cute but be careful because she can and will become a manic devil."
   }
 ]
