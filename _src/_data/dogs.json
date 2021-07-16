@@ -573,5 +573,13 @@
     "ownerUrl": "https://alistairshepherd.uk",
     "ownerTitle": "Front End Developer",
     "bio": "Torrin is a cross between a Bearded Collie and Border Collie. Her hair grows to about 30cm long and GETS EVERYWHERE. She's best likened to a Gremlin—she looks very cute but be careful because she can and will become a manic devil."
+  },
+  {
+    "url": "https://res.cloudinary.com/bendmyers/image/upload/v1626403832/Cupcake.png",
+    "name": "Cupcake",
+    "owner": "Ben Meyers",
+    "ownerUrl": "https://benmyers.dev",
+    "ownerTitle": "Frontend Developer and Accessibility Advocate",
+    "bio": "Maltipoo, lover of stuffed alpacas, shredder of stuffed pigs, and fearless (yet tiny) defender."
   }
 ]
