@@ -6,6 +6,8 @@ pagination:
   alias: dogs
   reverse: true
 permalink: "{% if pagination.pageNumber>0 %}/{{ pagination.pageNumber + 1 }}{% endif %}/index.html"
+eleventyComputed:
+  title: "{% if pagination.pageNumber>0 %}Page {{ pagination.pageNumber + 1 }}{% endif %}"
 ---
 <div class="dod-media-grid dod-stack-32">
 {% for dog in dogs %}
