@@ -6,7 +6,7 @@
   "scripts": {
     "watch:sass": "sass --watch _src/sass:_src/css",
     "build:sass": "sass _src/sass:_site/css",
-    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
     "build:eleventy": "npx @11ty/eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*"
@@ -15,7 +15,7 @@
   "author": "Mike Aparicio <peruvianidol@gmail.com> (http://mikeaparicio.com)",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-img": "^0.7.8",
     "npm-run-all": "^4.1.5",
     "sass": "^1.32.6"
