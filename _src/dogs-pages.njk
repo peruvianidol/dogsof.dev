@@ -28,8 +28,11 @@ eleventyComputed:
     {% endif %}
 
     <h3 class="dod-heading-3">Owner</h3>
-
+    {% if dog.ownerUrl %}
     <p><a href="{{ dog.ownerUrl }}">{{ dog.owner }}</a></p>
+    {% else %}
+      <p>{{ dog.owner }}</p>
+    {% endif %}
 
     {% if dog.ownerTitle %}
     <p>{{ dog.ownerTitle }}</p>
