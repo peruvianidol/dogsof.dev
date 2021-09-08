@@ -6,7 +6,7 @@
   "scripts": {
     "watch:sass": "sass --watch _src/sass:_src/css",
     "build:sass": "sass _src/sass:_site/css",
-    "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
     "build:eleventy": "npx @11ty/eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*"
