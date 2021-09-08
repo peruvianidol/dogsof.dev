@@ -654,5 +654,13 @@
     "owner": "Gerardo Rodriguez",
     "ownerTitle": "Senior Front-end Developer @ Cloud Four",
     "bio": "Togo the dog loves to go swimming! He's the sweetest dog ever. He's 12 years old now and he was adopted from Hermiston, Oregon. His favorite treat is a crunchy carrot!"
+  },
+  {
+    "url": "",
+    "name": "Clover",
+    "owner": "Paul Hebert",
+    "ownerTitle": "Senior Designer/Developer at Cloud Four",
+    "ownerUrl": "https://paulhebertdesigns.com",
+    "bio": "Clover (aka Duke Clovington, aka Professor Good Boy) loves cuddling, going on adventures, and eating cheese. When he's not out camping or hiking he likes to lounge in the sun, nap in bed, and chew any underwear that was accidentally left on the ground."
   }
 ]
