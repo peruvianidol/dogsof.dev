@@ -203,7 +203,7 @@ strong {
 }
 
 .dod-form {
-  max-width: 40ch;
+  max-width: 60ch;
   padding: 2rem;
   background-color: #FFF8DC;
   border-radius: 0.5rem;
@@ -296,7 +296,7 @@ textarea.dod-input {
 }
 
 .dod-article {
-  max-width: 50ch;
+  max-width: 70ch;
 }
 
 .dod-article a {
