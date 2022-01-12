@@ -710,5 +710,21 @@
     "permalink": "nova-2",
     "owner": "Robert Perez",
     "ownerTitle": "Sr. Full-Stack Engineer"
+  },
+  {
+    "url": "https://pbs.twimg.com/media/ENSa1JcWkAIjGu4?format=jpg",
+    "name": "Max",
+    "owner": "Dan Mall",
+    "ownerUrl": "https://danmall.com/",
+    "ownerTitle": "Founder & CEO, SuperFriendly",
+    "bio": "Max is a Yorkshire Terrier, adopted in November 2019 when he was just 6 months old. He loves our family and isn't very nice to anyone else."
+  },
+  {
+    "url": "https://pbs.twimg.com/media/E9KCiCoXsAAA5DK?format=jpg",
+    "name": "Matilda",
+    "owner": "Dan Mall",
+    "ownerUrl": "https://danmall.com/",
+    "ownerTitle": "Founder & CEO, SuperFriendly",
+    "bio": "Matilda (Tilly for short) is a mini sheepadoodle. We adopted her in August 2021 when she was just 6 weeks old. She’s super sweet and loves being pet by everyone."
   }
 ]
