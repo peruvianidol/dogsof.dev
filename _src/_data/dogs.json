@@ -726,5 +726,27 @@
     "ownerUrl": "https://danmall.com/",
     "ownerTitle": "Founder & CEO, SuperFriendly",
     "bio": "Matilda (Tilly for short) is a mini sheepadoodle. We adopted her in August 2021 when she was just 6 weeks old. She’s super sweet and loves being pet by everyone."
+  },
+  {
+    "url": "https://www.instagram.com/p/CXyf1w0KIPd/",
+    "name": "Nova",
+    "owner": "Benjamin Hollway",
+    "ownerUrl": "https://nothingrandom.com",
+    "permalink": "nova-3"
+  },
+  {
+    "url": "https://pbs.twimg.com/media/E9KCiCoXsAAA5DK?format=jpg",
+    "name": "Ciastek",
+    "owner": "Krzysztof Żuraw",
+    "ownerUrl": "https://krzysztofzuraw.com",
+    "ownerTitle": "Frontend Developer",
+    "bio": "Cookie/Leszek/Mother Flutter. His is good in barking/eating & loving every human around him."
+  },
+  {
+    "url": "https://www.instagram.com/p/CVAJR06DKAf/",
+    "name": "Demon",
+    "owner": "Natalia Szafraniec",
+    "ownerUrl": "https://natalia.fyi",
+    "bio": "Demon is a friendly Havanese. He loves people and always tries to solicit pets from strangers. His hobbies include digging in the sand, being loud, and running around in circles."
   }
 ]
