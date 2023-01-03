@@ -796,5 +796,13 @@
     "name": "Norris",
     "owner": "Sarah Burnett",
     "bio": "I am Norris the Corgi, not a cross, a full Pembrokeshire Corgi from Wales. Yes you don't see many corgis around these days, especially not my color. Yes I am stunning and everyone says I know it. I love cuddles and playtime, especially when Mum is trying to code!"
+  },
+  {
+    "url": "https://www.instagram.com/p/Cm5FA3DPEeT/",
+    "name": "DD",
+    "owner": "Ryan Trimble",
+    "ownerUrl": "https://www.ryantrimble.com/",
+    "ownerTitle": "UX/UI Developer",
+    "bio": "DD the doodle dog!"
   }
 ]
