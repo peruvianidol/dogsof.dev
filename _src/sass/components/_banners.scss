@@ -1,0 +1,16 @@
+.banner {
+  width: 100%;
+  padding: .3em;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+  font-size: .7em;
+}
+
+.banner-in-memoriam {
+  background-color: $shadow;
+  color: $white;
+}

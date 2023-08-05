@@ -250,6 +250,23 @@ textarea.dod-input {
   color: #D100D1;
 }
 
+.banner {
+  width: 100%;
+  padding: 0.3em;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  text-align: center;
+  font-size: 0.7em;
+}
+
+.banner-in-memoriam {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
 .dod-layout-default {
   display: grid;
   grid-template-rows: auto 1fr auto;
@@ -433,6 +450,7 @@ textarea.dod-input {
     margin-right: 2rem;
   }
   .dod-flex-item {
+    position: relative;
     flex: 1;
   }
 }

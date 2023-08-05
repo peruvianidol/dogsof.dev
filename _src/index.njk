@@ -8,6 +8,7 @@ pagination:
 permalink: "{% if pagination.pageNumber>0 %}/{{ pagination.pageNumber + 1 }}{% endif %}/index.html"
 eleventyComputed:
   title: "{% if pagination.pageNumber>0 %}Page {{ pagination.pageNumber + 1 }}{% endif %}"
+  passed: "{{ dog.data.passed }}"
 ---
 
 <div class="dod-media-grid dod-stack-32">
@@ -16,6 +17,9 @@ eleventyComputed:
   <figure>
     <div class="dod-img-wrap">
       {% image dog.data.image, dog.data.title, "(min-width: 57.8125em) 33vw, (min-width: 35.1875em) 50vw, 100vw" %}
+      {% if dog.data.passed %}
+        <span class="banner banner-in-memoriam">In loving memory 💕</span>
+      {% endif %}
     </div>
     <figcaption>
       <h2 class="dod-heading-2">{{ dog.data.title}}</h2>
