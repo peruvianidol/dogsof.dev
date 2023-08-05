@@ -14,6 +14,7 @@ eleventyComputed:
   bio: "{{ dog.bio }}"
   owner: "{{ dog.owner }}"
   ownerUrl: "{{ dog.ownerUrl }}"
+  passed: "{{ dog.passed }}"
 ---
 
 <h2 class="dod-heading-1 dod-stack-16">{{ dog.name }}</h2>
@@ -21,6 +22,9 @@ eleventyComputed:
 <div class="dod-flex-row-responsive">
   <div class="dod-flex-item dod-stack-16 dod-image-autoheight">
     {% image image, dog.name, "(min-width: 43.75em) 50vw, 100vw" %}
+    {% if dog.passed %}
+      <span class="banner banner-in-memoriam">In loving memory 💕</span>
+    {% endif %}
   </div>
   <article class="dod-flex-item dod-article">
     {% if dog.bio %}
