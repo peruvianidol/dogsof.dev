@@ -160,7 +160,7 @@ strong {
 @media (min-width: 700px) {
   .dod-heading-1 {
     font-size: 4rem;
-    line-height: 4rem;
+    line-height: 1.2;
   }
   .dod-heading-2 {
     font-size: 2rem;
