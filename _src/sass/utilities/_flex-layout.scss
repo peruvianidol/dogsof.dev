@@ -16,6 +16,10 @@
   flex-direction: column;
 }
 
+.dod-flex-item {
+  position: relative;
+}
+
 @media (min-width: $breakpoint-medium) {
   .dod-space-between-responsive {
     display: flex;
@@ -35,7 +39,6 @@
   }
 
   .dod-flex-item {
-    position: relative;
     flex: 1;
   }
 }
