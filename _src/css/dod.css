@@ -58,9 +58,10 @@ select {
   html:focus-within {
     scroll-behavior: auto;
   }
+
   *,
-  *::before,
-  *::after {
+*::before,
+*::after {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
@@ -162,10 +163,12 @@ strong {
     font-size: 4rem;
     line-height: 4rem;
   }
+
   .dod-heading-2 {
     font-size: 2rem;
     line-height: 2.25rem;
   }
+
   .dod-heading-3 {
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -351,6 +354,7 @@ textarea.dod-input {
     text-align: left;
     padding: 2rem 2rem 1rem 2rem;
   }
+
   .dod-layout-default [data-grid-area=main] {
     border-radius: 1rem;
     margin: 0 2rem;
@@ -440,15 +444,19 @@ textarea.dod-input {
     align-items: center;
     justify-content: space-between;
   }
+
   .dod-space-between-responsive > :not(:last-child) {
     margin-right: 1rem;
   }
+
   .dod-flex-row-responsive {
     flex-direction: row;
   }
+
   .dod-flex-row-responsive > :not(:last-child) {
     margin-right: 2rem;
   }
+
   .dod-flex-item {
     position: relative;
     flex: 1;

@@ -4,16 +4,17 @@
     "name": "Emily",
     "owner": "Mike Aparicio",
     "ownerUrl": "https://mikeaparicio.com/",
-    "ownerTitle": "Senior Design Systems Engineer @ Provi",
-    "bio": "aka Moo-Moo, aka Moo-Moo Magoo. 5 years old. Loves fluffy pillows and snuggles. Adopted from Hudson's Halfway Home, which rescues dogs with special needs. (She has a cleft palate.)"
+    "ownerTitle": "Design Systems Engineer and curator of Dogs of Dev",
+    "bio": "aka Moo-Moo, aka Moo-Moo Magoo. Loves fluffy pillows and snuggles. Adopted from Hudson's Halfway Home, which rescues dogs with special needs. (She has a cleft palate.)"
   },
   {
     "url": "https://www.instagram.com/p/Bk-tMTkhup-/",
     "name": "Geno",
     "owner": "Mike Aparicio",
     "ownerUrl": "https://mikeaparicio.com/",
-    "ownerTitle": "Senior Design Systems Engineer @ Provi",
-    "bio": "aka Gee-Gee, aka Gee-Gee McGee. 4 years old. Loves eating out of the garbage, turning fetch into tug of war, napping by the vent. Adopted from Hudson's Halfway Home. which rescues dogs with special needs. (He has a cleft palate.)"
+    "ownerTitle": "Design Systems Engineer and curator of Dogs of Dev",
+    "bio": "aka Gee-Gee, aka Gee-Gee McGee. Loved eating out of the garbage, turning fetch into tug of war, napping by the vent. Dearly loved and missed.",
+    "passed": true
   },
   {
     "url": "https://www.instagram.com/p/CI5osWhnzKX/",
