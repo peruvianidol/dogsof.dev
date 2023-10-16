@@ -4,7 +4,7 @@
     "name": "Emily",
     "owner": "Mike Aparicio",
     "ownerUrl": "https://mikeaparicio.com/",
-    "ownerTitle": "Design Systems Engineer and curator of Dogs of Dev",
+    "ownerTitle": "Design Systems Engineer / curator of Dogs of Dev",
     "bio": "aka Moo-Moo, aka Moo-Moo Magoo. Loves fluffy pillows and snuggles. Adopted from Hudson's Halfway Home, which rescues dogs with special needs. (She has a cleft palate.)"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Geno",
     "owner": "Mike Aparicio",
     "ownerUrl": "https://mikeaparicio.com/",
-    "ownerTitle": "Design Systems Engineer and curator of Dogs of Dev",
+    "ownerTitle": "Design Systems Engineer / curator of Dogs of Dev",
     "bio": "aka Gee-Gee, aka Gee-Gee McGee. Our dear Geno was the best guard dog, an eager snuggler, incredibly patient and gentle with our kids, and integral part of our family. We love him and miss him so much.",
     "passed": true
   },
@@ -856,5 +856,21 @@
     "owner": "Alpar Gür",
     "ownerUrl": "https://www.alpar.studio/",
     "bio": "Percy is charming golden retriever from Istanbul, Turkey. He enjoys chewing and blowing tennis balls. He will probably spend his time lying NEXT to his bed until he hears a rustle of packaging."
+  },
+  {
+    "url": "https://www.instagram.com/p/B99XC-JFoO9/",
+    "name": "Demien",
+    "owner": "Preetam Slot",
+    "ownerUrl": "https://unfolding.io",
+    "ownerTitle": "Creative",
+    "bio": "Rescue dog from La Palma, Pastor Garafiano."
+  },
+  {
+    "url": "",
+    "name": "Mario",
+    "owner": "Mike Aparicio",
+    "ownerUrl": "https://mikeaparicio.com",
+    "ownerTitle": "Design Systems Engineer / curator of Dogs of Dev",
+    "bio": "Our four-year-old named him after Super Mario. 🥹"
   }
 ]
