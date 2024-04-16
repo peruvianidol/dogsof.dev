@@ -62,6 +62,14 @@
     "passed": true
   },
   {
+    "url": "https://www.instagram.com/p/mlvZOkF6XC/",
+    "name": "Helo",
+    "owner": "Lynn Fisher",
+    "ownerUrl": "https://www.lynnandtonic.com/",
+    "bio": "A grumpy old man from the day he was born.",
+    "passed": true
+  },
+  {
     "url": "https://www.instagram.com/p/CJNU-n5D4XD/",
     "name": "Jello",
     "owner": "Mandy Michael",
@@ -872,5 +880,12 @@
     "ownerUrl": "https://mikeaparicio.com",
     "ownerTitle": "Design Systems Engineer / curator of Dogs of Dev",
     "bio": "Our four-year-old named him after Super Mario. 🥹"
+  },
+  {
+    "url": "",
+    "name": "Gravy",
+    "owner": "Lynn Fisher",
+    "ownerUrl": "https://lynnandtonic.com",
+    "bio": "A gentle soul who loves a piece of cheese."
   }
 ]
