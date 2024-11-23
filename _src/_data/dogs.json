@@ -887,5 +887,30 @@
     "owner": "Lynn Fisher",
     "ownerUrl": "https://lynnandtonic.com",
     "bio": "A gentle soul who loves a piece of cheese."
+  },
+  {
+    "url": "https://www.instagram.com/p/C19k1b_ty9B/?igsh=MTRtcHk1b2Z5eHhjag==",
+    "name": "Leo the Lion",
+    "bio": "Leo the Lion is a 15 year old ex-pat Shih-tzu living in Western Australia. He is super chill, loves all dogs even scary ones.",
+    "owner": "Michelle Sandford",
+    "ownerUrl": "https://aka.ms/michellesandford",
+    "ownerTitle": "Developer Engagement Lead"
+  },
+  {
+    "url": "https://www.instagram.com/p/C19k1b_ty9B/?igsh=MTRtcHk1b2Z5eHhjag==",
+    "name": "Lily Luna",
+    "bio": "Lily is a 9-year-old mini-bulldog mix and a stage-9 clinger. This velcro dog is food-motivated, prone to loud naps, and loves her stuffies.",
+    "owner": "Tina Bell Vance",
+    "ownerUrl": "https://tinabellvance.com",
+    "ownerTitle": "Full Stack Software Engineer"
+  },
+  {
+    "url": "https://www.instagram.com/p/CxIEIPuqk6n/",
+    "name": "Srecko",
+    "bio": "An adopted 3 months old puppy, now lives like a king!",
+    "owner": "Dragan Eror",
+    "ownerUrl": "https://www.linkedin.com/in/draganeror/",
+    "ownerTitle": "Senior Web UI Engineer"
   }
+
 ]
