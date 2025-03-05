@@ -932,5 +932,22 @@
     "permalink": "nova-4",
     "bio": "She is a Portuguese water dog, who's favourite food tortellini & grissini, she is still a little scared of swimming.",
     "owner": "Arran Ross-Paterson"
+  },
+  {
+    "url": "https://www.instagram.com/pip.squeak.pippa/",
+    "name": "Pippa",
+    "permalink": "pippa-2",
+    "bio": "Pippa is the cutest pup out there! She is 5 1/2 years old and loves giving kisses, greeting everyone she meets with a happy jump, and will do anything for a chicken strip! She loves going on walks around campus, and loves nothing more than playing with her best friend, Millie!",
+    "owner": "Claire Wayand",
+    "ownerUrl": "https://clairewayand.myportfolio.com/",
+    "ownerTitle": "Product Designer"
+  },
+  {
+    "url": "https://lh3.googleusercontent.com/pw/AP1GczNhzAXSekOQ7rsUAaLSuVrgsLC2n3vg7D_PY9rAzpQmB1oZVESQ--0OIEZoOEsnyhXRvJOstoD-8UKPRghbxSm",
+    "name": "Kuiper",
+    "bio": "Kuiper is an almost 4-year-old border collie who lives in the suburbs of Florauna, Pretoria, South Africa. As with all border collies, he has endless amounts of energy, is as clever as a whipsnapper, and loves one thing above all. Ball 🤣 We all love him to bits.",
+    "owner": "The Neethlings",
+    "ownerUrl": "https://schalkneethling.com",
+    "ownerTitle": "Open Web Engineer"
   }
 ]
